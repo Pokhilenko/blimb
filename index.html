@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <title>Blimb - Приложение для глаз</title>
+  <meta property="og:title" content="Blimb"/>
+  <meta property="og:description" content="Приложение для тренировки и расслабления глаз"/>
+  <link rel="image_src" href="img/general_image.png">
+  <link rel="stylesheet" href="css/main3.css" type="text/css">
+  <link rel="stylesheet" href="css/likely3.css" type="text/css">
+  <link rel="stylesheet" href="css/animation3.css" type="text/css">
+  <script src="js/favicon3.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/js4.js"></script>
+  <script src="js/likely5.js"></script>
+  <meta name="description" content="Сайт для зарядки глаз">
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68773991-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="gradient"></div>
+<div id="wrapper">
+  <div class="img"></div>
+  <a href="http://blimb.su/" class="mini"></a>
+
+  <div class="option_panel" style="text-align:center;">
+        <span class="language_panel">
+            <span></span>
+        </span>
+    <div class="audio_panel">
+      <span class="volume first"></span>
+      <ul class="volume_list">
+        <li>
+          <span class="close voices first_voice"></span>
+        </li>
+        <li>
+          <span class="close voices second_voice"></span>
+        </li>
+        <li>
+          <span class="close voices three_voice"></span>
+        </li>
+        <li>
+          <span class="close muted"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="volume_list_wrapper">
+      <div class="volume_panel" id="maximum"></div>
+      <div class="slide_line_volume">
+        <div class="before"></div>
+        <div class="after"></div>
+      </div>
+    </div>
+  </div>
+  <div class="first massiveBlock active">
+    <div class="primary_block">
+      <div class="extended_counter">
+        <span class="time hour"></span>
+        <span class="time minutes"></span>
+        <span class="time seconds"></span>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="navi_block">
+        <h1 id="start" class="button">
+          <span class="ru">Начать зарядку для глаз</span>
+          <span class="uk">Розпочати заняття</span>
+          <span class="eng">Let’s Start</span>
+        </h1>
+
+        <div class="nav" style="white-space: nowrap">
+          <ul>
+            <li>
+              <a href="./about.html" target="_self">
+                <span class="ru">Рекомендации</span>
+                <span class="uk">Рекомендації</span>
+                <span class="eng">Guidelines</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="massiveBlock height instruction_block" data-time="100500">
+    <div class="title">
+      <span class="ru">Рекомендации</span>
+      <span class="uk">Рекомендації</span>
+      <span class="eng">Guidelines</span>
+    </div>
+    <div class="text">
+      <div class="ru">
+        <p>В комплексе набор упражнений, во время которых нужно смотреть в направления, указываемые точкой.</p>
+        <p>Точка показывает только направление — взгляд перемещайте до упора, но не сильно.</p>
+        <p>В крайних точках задерживайте взгляд на секунду.</p>
+        <p>После выполнения каждого упражнения можно легонько зажмуриться или поморгать пару секунд – это помогает расслабиться глазам.</p>
+        <p>Общее время упражнения: 3 минуты 25 секунд.</p>
+      </div>
+      <div class="uk">
+        <p>В комплексі набір вправ, під час яких потрібно дивитися у напрямку, який показує кружечок.</p>
+        <p>Білий кружечок вказує тільки напрямок - погляд відводьте максимально, але щоб не було напруги в очах.</p>
+        <p>У крайніх точках затримуйте погляд на секунду.</p>
+        <p>Після виконання кожної вправи, за бажанням, легко замружитись або покліпати декілька секунд - це допоможе розслабити очі.</p>
+        <p>Тривалість одного заняття: 3 хвилини 25 секунд.</p>
+      </div>
+      <div class="eng">
+        <p>This gymnastics includes the set of exercises. At run time your eyes need to follow the direction indicated by the dot.</p>
+        <p>The dot shows only the direction of the eyes rotation. Move your eyes as much as possible in the indicated direction, but by doing this you should not feel any discomfort.</p>
+        <p>In extreme points hold your eyes for a second.</p>
+        <p>After finishing of each exercise you can blink eyes for a few seconds.</p>
+        <p>Total time of the exercise: 3 minutes 25 seconds.</p>
+      </div>
+    </div>
+    <div class="nav_info">
+      <input type="checkbox" id="do_not_show_again">
+      <label for="do_not_show_again">
+        <span class="check"></span>
+        <span class="ru">Больше не показывать</span>
+        <span class="uk">Більше не показувати</span>
+        <span class="eng">Do not show me this again</span>
+      </label>
+      <a href="#" class="continue button">
+        <span class="ru">Начать</span>
+        <span class="uk">Почати</span>
+        <span class="eng">Start</span>
+      </a>
+    </div>
+
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator eleven"></div>
+    <div class="title">
+      <span class="ru">Расслабьтесь</span>
+      <span class="uk">Розслабтеся</span>
+      <span class="eng">Relax</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Закройте глаза до сигнала
+            </span>
+      <span class="uk">
+                Заплющіть очі і не відкривайте до того, як почуєте звуковий сигнал
+            </span>
+      <span class="eng">
+                Close your eyes until you hear a signal
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator two"></div>
+    <div class="title">
+      <span class="ru">Вверх−вниз</span>
+      <span class="uk">Вгору−вниз</span>
+      <span class="eng">Up-down</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                На секунду задерживайте взгляд в верхней и нижней точках
+            </span>
+      <span class="uk">
+                На секунду затримуйте погляд у верхній та нижній точках
+            </span>
+      <span class="eng">
+                For a second old your eyes in the upper and low points
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="10">
+
+    <div class="title">
+      <span class="ru">Помигайте глазами</span>
+      <span class="uk">Поклiпайте очима</span>
+      <span class="eng">Clip your eyes</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Помигайте глазами или прикройте ладонями до сигнала
+            </span>
+      <span class="uk">
+                Покліпайте очима або прикрийте очі до сигналу
+            </span>
+      <span class="eng">
+                Blinked or hands close your eyes
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator one"></div>
+    <div class="title">
+      <span class="ru">Влево−вправо</span>
+      <span class="uk">Вліво−вправо</span>
+      <span class="eng">Left-Right</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                До упора, но без сильного напряжения
+            </span>
+      <span class="uk">
+               Погляд відводьте максимально, але щоб не було напруги в очах
+            </span>
+      <span class="eng">
+                Move your eyes as much as possible left and right, but by doing this you should not feel any discomfort
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator seven"></div>
+    <div class="title">
+      <span class="ru">По диагонали</span>
+      <span class="uk">По діагоналі</span>
+      <span class="eng">Along the diagonal</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Смотрите по углам, точка покажет как
+            </span>
+      <span class="uk">
+                Дивітся по углах, курсор покаже як
+            </span>
+      <span class="eng">
+              Look at the corners, as the dot shows you
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="10">
+
+    <div class="title">
+      <span class="ru">Помигайте глазами</span>
+      <span class="uk">Поклiпайте очима</span>
+      <span class="eng">Clip your eyes</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Помигайте глазами или прикройте ладонями до сигнала
+            </span>
+      <span class="uk">
+               Покліпайте очима або прикрийте очі до сигналу
+            </span>
+      <span class="eng">
+                Blinked or hands close your eyes
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator five"></div>
+    <div class="title">
+      <span class="ru">По часовой стрелке</span>
+      <span class="uk">За годинниковою стрілкою</span>
+      <span class="eng">Clockwise direction</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Не спешите, делайте плавно
+            </span>
+      <span class="uk">
+                Виконуйте плавно, не треба поспішати
+            </span>
+      <span class="eng">
+                Do not hurry, do it smoothly
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="parent_animator nine"></div>
+    <div class="title">
+      <span class="ru">По спирали</span>
+      <span class="uk">По спіралі</span>
+      <span class="eng">Spirally</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+      <span class="ru">Старайтесь делать не меньше четырёх витков</span>
+      <span class="uk">Робіть не меньше, ніж чотири кола очима за раз</span>
+      <span class="eng">Try to do no less than 4 turns</span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="10">
+
+    <div class="title">
+      <span class="ru">Помигайте Глазами</span>
+      <span class="uk">Поклiпайте очима</span>
+      <span class="eng">Clip your eyes</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+            <span class="ru">
+                Помигайте глазами или прикройте ладонями до сигнала
+            </span>
+      <span class="uk">
+                Покліпайте очима або прикрийте очі до сигналу
+            </span>
+      <span class="eng">
+                Blinked or hands close your eyes
+            </span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="20">
+    <div class="title">
+      <span class="ru">Вблизи-вдали</span>
+      <span class="uk">Там-тут</span>
+      <span class="eng">Into the distance</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+      <span class="ru">Посмотрите на предмет вдали, потом — на монитор</span>
+      <span class="uk">Подивітся на предмет за монітором, потім на монітор</span>
+      <span class="eng">Look at the object in the distance, then at the objects near you</span>
+    </div>
+  </div>
+  <div class="massiveBlock height" data-time="15">
+    <div class="title">
+      <span class="ru">Расслабьтесь</span>
+      <span class="uk">Розслабтесь</span>
+      <span class="eng">Relax</span>
+
+      <div class="timer"></div>
+    </div>
+    <div class="ex_text">
+      <span class="ru">Закройте глаза, вы почти закончили</span>
+      <span class="uk">Заплющіть очі, залишилось небагато</span>
+      <span class="eng">Close you eyes, you are almost finished</span>
+    </div>
+  </div>
+  <div class="last">
+    <div class="title">
+            <span class="ru">
+                Вы молодец! Теперь немного отдохните от компьютера. <br />Если не закроете вкладку, через час мы вам напомним про отдых.
+            </span>
+      <span class="uk">
+                Ви молодець! <br />Якщо не закриєте вкладку, через годину ми нагадаємо вам про необхідність відпочинку.
+            </span>
+      <span class="eng">
+                Well Done! Now get some rest from the computer. <br />If you do not close the window, we remind you about the rest in an hour.
+            </span>
+    </div>
+    <div class="ex_text">
+    </div>
+  </div>
+  <div class="footer">
+    <div class="social-button">
+      <div class="likely likely-light">
+        <div class="twitter" data-via="SSarzhevsky">Твитнуть</div>
+        <div class="facebook">Поделиться</div>
+        <div class="vkontakte">Поделиться</div>
+      </div>
+    </div>
+  </div>
+  <img src="assets/setting.png" class="type_browser" alt="" />
+  <div class="bag_list">
+    <div class="type_browser"></div>
+    <div class="bag_list_content">
+    </div>
+  </div>
+</div>
+<div style="display: none">
+  <img src="assets/check1.png" alt="">
+  <img src="assets/checkbox_off1.png" alt="">
+  <img src="assets/checkbox_on1.png" alt="">
+  <img src="assets/x_hover.png" alt="">
+</div>
+</body>
+</html>
