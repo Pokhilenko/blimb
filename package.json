@@ -1,12 +1,11 @@
 {
-  "name": "Blimb",
+  "name": "blimb",
   "version": "1.0.0",
-  "description": "Приложение для тренировки и расслабления глаз",
+  "description": "Application for eye training and relaxation",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Blimb",
     "eyes",
@@ -14,12 +13,12 @@
     "exercises",
     "health"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Dmitrii Pokhilenko",
+  "license": "MIT",
   "devDependencies": {
-    "assert": "^1.4.1",
+    "assert": "^2.0.0",
     "devtron": "^1.4.0",
-    "electron": "^7.2.4",
-    "spectron": "^3.8.0"
+    "electron": "^9.1.0",
+    "spectron": "^11.1.0"
   }
 }
